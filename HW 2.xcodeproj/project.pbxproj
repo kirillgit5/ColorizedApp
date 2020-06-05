@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A86938C720D027C300E87976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86938C620D027C300E87976 /* AppDelegate.swift */; };
-		A86938C920D027C300E87976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86938C820D027C300E87976 /* ViewController.swift */; };
+		A86938C920D027C300E87976 /* ColorSwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86938C820D027C300E87976 /* ColorSwitchingViewController.swift */; };
 		A86938CC20D027C300E87976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86938CA20D027C300E87976 /* Main.storyboard */; };
 		A86938CE20D027C400E87976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86938CD20D027C400E87976 /* Assets.xcassets */; };
 		A86938D120D027C400E87976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86938CF20D027C400E87976 /* LaunchScreen.storyboard */; };
+		EE2F1946248A2BD4001BDB68 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F1945248A2BD4001BDB68 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A86938C320D027C300E87976 /* HW 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86938C620D027C300E87976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A86938C820D027C300E87976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A86938C820D027C300E87976 /* ColorSwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwitchingViewController.swift; sourceTree = "<group>"; };
 		A86938CB20D027C300E87976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A86938CD20D027C400E87976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A86938D020D027C400E87976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86938D220D027C400E87976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2F1945248A2BD4001BDB68 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				A86938C620D027C300E87976 /* AppDelegate.swift */,
-				A86938C820D027C300E87976 /* ViewController.swift */,
+				EE2F1947248A9085001BDB68 /* ViewControllers */,
 				A86938CA20D027C300E87976 /* Main.storyboard */,
-				A86938CD20D027C400E87976 /* Assets.xcassets */,
 				A86938CF20D027C400E87976 /* LaunchScreen.storyboard */,
+				A86938CD20D027C400E87976 /* Assets.xcassets */,
 				A86938D220D027C400E87976 /* Info.plist */,
 			);
 			path = "HW 2";
+			sourceTree = "<group>";
+		};
+		EE2F1947248A9085001BDB68 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A86938C820D027C300E87976 /* ColorSwitchingViewController.swift */,
+				EE2F1945248A2BD4001BDB68 /* HomeScreenViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86938C920D027C300E87976 /* ViewController.swift in Sources */,
+				A86938C920D027C300E87976 /* ColorSwitchingViewController.swift in Sources */,
 				A86938C720D027C300E87976 /* AppDelegate.swift in Sources */,
+				EE2F1946248A2BD4001BDB68 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
